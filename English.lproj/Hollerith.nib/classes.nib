@@ -1,0 +1,28 @@
+{
+    IBClasses = (
+        {CLASS = ColumnScale; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = EditField; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                addHollerithCard = id; 
+                openOutputControl = id; 
+                removeHollerithCard = id; 
+                runButtonPushed = id; 
+            }; 
+            CLASS = Hollerith; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                delegate = id; 
+                editField = id; 
+                metricField = id; 
+                positionText = id; 
+                scale = id; 
+                table = id; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

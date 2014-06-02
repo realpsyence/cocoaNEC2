@@ -1,0 +1,29 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = TwoPort; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                delegate = id; 
+                ntAdmittanceMatrix = id; 
+                ntLocation1Matrix = id; 
+                ntLocation1Segment = id; 
+                ntLocation2Matrix = id; 
+                ntLocation2Segment = id; 
+                tlAdmittance1Matrix = id; 
+                tlAdmittance2Matrix = id; 
+                tlCrossedButton = id; 
+                tlLocation1Matrix = id; 
+                tlLocation1Segment = id; 
+                tlLocation2Matrix = id; 
+                tlLocation2Segment = id; 
+                tlMatrix = id; 
+                typeTab = id; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
